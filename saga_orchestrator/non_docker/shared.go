@@ -1,4 +1,4 @@
-package saga
+package non_docker
 
 const TransferMoneyTaskQueue = "TRANSFER_MONEY_TASK_QUEUE"
 

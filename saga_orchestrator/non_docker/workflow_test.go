@@ -1,4 +1,4 @@
-package saga
+package non_docker
 
 import (
 	"errors"
