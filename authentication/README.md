@@ -13,3 +13,5 @@ $ docker-compose up -d
 4. 作成したクライアントから、クライアントシークレットを取得する。
 
 5. oauth2-proxyコンテナのクライアントシークレット変数を設定する。
+
+> - https://github.com/oauth2-proxy/oauth2-proxy/tree/master/contrib/local-environment
