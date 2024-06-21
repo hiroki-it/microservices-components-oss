@@ -1,16 +1,25 @@
-https://github.com/temporalio/samples-go/tree/main/saga を使わせてもらってます！
+1. リポジトリをクローンする。
 
+```bash
+$ git clone https://github.com/temporalio/samples-go
+```
 
-1. temporalワーカーを実行する
+2. temporalサーバーを起動する
+
+```bash
+$ docker-compose up -d
+```
+
+3. 別のターミナルで、temporalワーカーを実行する。
 
 ```bash
 go run saga/worker/main.go
 ```
 
-2. temporalワーカーを実行する
+4. 別のターミナルで、temporalクライアントを実行する。
 
 ```bash
 go run saga/start/main.go
 ```
 
-https://github.com/temporalio/money-transfer-project-template-go も参考にするぜ！
+> - https://github.com/temporalio/samples-go
