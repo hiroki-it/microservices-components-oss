@@ -1,4 +1,4 @@
-module github.com/temporalio/samples-go
+module github.com/hiroki-it/microservices-components-oss
 
 go 1.21
 

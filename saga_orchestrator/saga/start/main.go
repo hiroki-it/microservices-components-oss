@@ -6,8 +6,6 @@ import (
 
 	"github.com/google/uuid"
 	"go.temporal.io/sdk/client"
-
-	"github.com/temporalio/samples-go/saga"
 )
 
 func main() {

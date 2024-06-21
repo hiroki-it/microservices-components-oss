@@ -5,8 +5,6 @@ import (
 
 	"go.temporal.io/sdk/client"
 	"go.temporal.io/sdk/worker"
-
-	"github.com/temporalio/samples-go/saga"
 )
 
 func main() {
