@@ -7,7 +7,6 @@ services:
       - 80:4180
     command: --config /oauth2-proxy.cfg --alpha-config /oauth2-proxy-alpha-config.yaml
     volumes:
-      - "./oauth2-proxy-alpha-config.cfg:/oauth2-proxy.cfg"
       - "./oauth2-proxy-alpha-config.yaml:/oauth2-proxy-alpha-config.yaml"
     environment:
       OAUTH2_PROXY_CLIENT_SECRET: ""
