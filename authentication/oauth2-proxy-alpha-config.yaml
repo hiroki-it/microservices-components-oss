@@ -1,0 +1,6 @@
+providers:
+  - provider: oidc
+    clientSecret: ""
+    clientID: oauth2-proxy
+    oidcConfig:
+      issuerURL: http://keycloak:8080/realms/test-realm
