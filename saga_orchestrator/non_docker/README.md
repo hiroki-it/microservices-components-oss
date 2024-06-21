@@ -1,3 +1,5 @@
+https://github.com/temporalio/samples-go/tree/main/saga を使わせてもらってます！
+
 
 1. temporalワーカーを実行する
 
@@ -11,4 +13,4 @@ go run saga/worker/main.go
 go run saga/start/main.go
 ```
 
-https://github.com/temporalio/money-transfer-project-template-go も参考にする
+https://github.com/temporalio/money-transfer-project-template-go も参考にするぜ！
