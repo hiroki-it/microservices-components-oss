@@ -27,7 +27,7 @@ $ curl https://localhost/tea -H "Authorization: CSlkjdfj3423lkj234jj==" -k
 
 - 通信の暗号化
 - 認証
-- `L7`ロードバランシング (DNSラウンドロビン)
+- `L7`ロードバランシング (DNSラウンドロビン) ※これは、API Gatewayに必須の機能ではない
 
 > - https://github.com/Pungyeon/docker-nginx-example
 
