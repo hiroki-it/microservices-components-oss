@@ -1,4 +1,4 @@
-# demo-microservices-components
+# microservices-components-oss
 
 マイクロサービスとして使用できるOSSを検証するリポジトリです！
 
