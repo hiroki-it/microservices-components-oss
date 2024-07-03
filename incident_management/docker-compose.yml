@@ -1,8 +1,8 @@
 x-environment: &oncall-environment
   DATABASE_TYPE: sqlite3
   BROKER_TYPE: redis
-  BASE_URL: "http://localhost:8080"
-  SECRET_KEY: "my_random_secret_must_be_more_than_32_characters_long"
+  BASE_URL: $DOMAIN
+  SECRET_KEY: $SECRET_KEY
   FEATURE_PROMETHEUS_EXPORTER_ENABLED: ${FEATURE_PROMETHEUS_EXPORTER_ENABLED:-false}
   PROMETHEUS_EXPORTER_SECRET: ${PROMETHEUS_EXPORTER_SECRET:-}
   REDIS_URI: redis://redis:6379/0
