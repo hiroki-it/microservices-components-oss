@@ -13,6 +13,8 @@ x-environment: &oncall-environment
   CELERY_WORKER_SHUTDOWN_INTERVAL: "65m"
   CELERY_WORKER_BEAT_ENABLED: "True"
   GRAFANA_API_URL: http://grafana:3000
+  # Grafana Cloudを無効化する
+  GRAFANA_CLOUD_NOTIFICATIONS_ENABLED: false
 
 services:
   engine:
