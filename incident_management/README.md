@@ -18,7 +18,7 @@ $ docker-compose up -d
 
 4. GrafanaダッシュボードでOnCallプラグインをインストールする。
 
-5. Grafana OnCall APIのURLに`http://engine:8080`を入力し、連携する。ポートが空いていないとエラーになる。
+5. Grafanaダッシュボードで、OnCall APIのURLに`http://engine:8080`を入力し、GrafanaダッシュボードとOnCallを連携する。ポートが空いていないとエラーになる。
 
 6. 画面をリロードし、初期化する。
 
